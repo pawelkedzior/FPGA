@@ -1,0 +1,827 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: PONG.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PONG.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PONG"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : PONG
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/Pliki/PONG/DCM.vhd" in Library work.
+Architecture behavioral of Entity dcm is up to date.
+Compiling vhdl file "E:/Pliki/PONG/PONG.vhd" in Library work.
+Entity <pong> compiled.
+Entity <pong> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PONG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DCM> in library <work> (architecture <BEHAVIORAL>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <PONG> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "E:/Pliki/PONG/PONG.vhd" line 344: Unconnected output port 'CLKIN_IBUFG_OUT' of component 'DCM'.
+WARNING:Xst:753 - "E:/Pliki/PONG/PONG.vhd" line 344: Unconnected output port 'CLK0_OUT' of component 'DCM'.
+WARNING:Xst:753 - "E:/Pliki/PONG/PONG.vhd" line 344: Unconnected output port 'LOCKED_OUT' of component 'DCM'.
+WARNING:Xst:819 - "E:/Pliki/PONG/PONG.vhd" line 453: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <pilkax>, <punktylewy>, <punktyprawy>
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 206: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 212: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 223: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 229: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 240: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 246: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 257: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "E:/Pliki/PONG/PONG.vhd" line 263: Index value(s) does not match array range, simulation mismatch.
+Entity <PONG> analyzed. Unit <PONG> generated.
+
+Analyzing Entity <DCM> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "CLKDV_DIVIDE =  2.0000000000000000" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKIN_PERIOD =  20.0000000000000000" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <DCM>.
+Entity <DCM> analyzed. Unit <DCM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DCM>.
+    Related source file is "E:/Pliki/PONG/DCM.vhd".
+Unit <DCM> synthesized.
+
+
+Synthesizing Unit <PONG>.
+    Related source file is "E:/Pliki/PONG/PONG.vhd".
+    Register <zielony> equivalent to <czerwony> has been removed
+    Found finite state machine <FSM_0> for signal <obecny>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk_25                    (rising_edge)        |
+    | Power Up State     | oczekiwanie                                    |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 32-bit latch for signal <predkosc>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <dodatek>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <i7$mux0000>.
+    Using one-hot encoding for signal <i7$mux0001>.
+    Using one-hot encoding for signal <i7$mux0002>.
+    Using one-hot encoding for signal <i7$mux0003>.
+    Using one-hot encoding for signal <zdobywca>.
+    Using one-hot encoding for signal <$mux0000>.
+WARNING:Xst:643 - "E:/Pliki/PONG/PONG.vhd" line 315: The result of a 8x4-bit multiplication is partially used. Only the 8 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "E:/Pliki/PONG/PONG.vhd" line 315: The result of a 8x4-bit multiplication is partially used. Only the 8 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 32x16-bit ROM for signal <$rom0000>.
+    Found 64x48-bit ROM for signal <$rom0001>.
+    Found 32x8-bit ROM for signal <i7$mux0015>.
+    Found 16x7-bit ROM for signal <l1$mux0002>.
+    Found 16x7-bit ROM for signal <l2$mux0002>.
+    Found 16x7-bit ROM for signal <p1$mux0002>.
+    Found 16x7-bit ROM for signal <p2$mux0002>.
+WARNING:Xst:737 - Found 1-bit latch for signal <wlaczony>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 4-bit register for signal <VGA_R>.
+    Found 4-bit register for signal <VGA_G>.
+    Found 4-bit register for signal <VGA_B>.
+    Found 1-bit register for signal <VGA_HSYNC>.
+    Found 1-bit register for signal <VGA_VSYNC>.
+    Found 8x4-bit multiplier for signal <cyfra0$mult0001> created at line 315.
+    Found 8x4-bit multiplier for signal <cyfra2$mult0001> created at line 315.
+    Found 4-bit register for signal <czerwony>.
+    Found 32-bit adder for signal <dodatek$addsub0000> created at line 499.
+    Found 32-bit comparator less for signal <dodatek$cmp_lt0000> created at line 495.
+    Found 32-bit comparator less for signal <dodatek$cmp_lt0001> created at line 498.
+    Found 32-bit 4-to-1 multiplexer for signal <dodatek$mux0001>.
+    Found 32-bit subtractor for signal <i7$addsub0000> created at line 255.
+    Found 32-bit subtractor for signal <i7$addsub0001> created at line 238.
+    Found 32-bit subtractor for signal <i7$addsub0002> created at line 221.
+    Found 32-bit subtractor for signal <i7$addsub0003> created at line 204.
+    Found 32-bit subtractor for signal <i7$sub0000> created at line 204.
+    Found 7-bit register for signal <l1>.
+    Found 8-bit comparator greater for signal <l1$cmp_gt0000> created at line 622.
+    Found 8-bit comparator greater for signal <l1$cmp_gt0001> created at line 626.
+    Found 7-bit register for signal <l2>.
+    Found 8-bit subtractor for signal <l2$addsub0000> created at line 315.
+    Found 32-bit up counter for signal <leway>.
+    Found 32-bit comparator greatequal for signal <leway$cmp_ge0000> created at line 527.
+    Found 32-bit comparator greater for signal <leway$cmp_gt0000> created at line 542.
+    Found 32-bit comparator lessequal for signal <leway$cmp_le0000> created at line 542.
+    Found 32-bit addsub for signal <leway$mux0000> created at line 542.
+    Found 32-bit up counter for signal <licznikpion>.
+    Found 32-bit comparator less for signal <licznikpion$cmp_lt0000> created at line 426.
+    Found 32-bit register for signal <licznikpoziom>.
+    Found 32-bit comparator less for signal <licznikpoziom$cmp_lt0000> created at line 422.
+    Found 32-bit adder for signal <licznikpoziom$mux0001>.
+    Found 32-bit comparator greater for signal <mux0000$cmp_gt0000> created at line 203.
+    Found 32-bit comparator greater for signal <mux0000$cmp_gt0001> created at line 218.
+    Found 32-bit comparator greater for signal <mux0000$cmp_gt0002> created at line 235.
+    Found 32-bit comparator greater for signal <mux0000$cmp_gt0003> created at line 252.
+    Found 32-bit comparator less for signal <mux0000$cmp_lt0000> created at line 203.
+    Found 32-bit comparator less for signal <mux0000$cmp_lt0001> created at line 218.
+    Found 32-bit comparator less for signal <mux0000$cmp_lt0002> created at line 235.
+    Found 32-bit comparator less for signal <mux0000$cmp_lt0003> created at line 252.
+    Found 4-bit register for signal <niebieski>.
+    Found 32-bit comparator greater for signal <obecny$cmp_gt0000> created at line 466.
+    Found 8-bit comparator greater for signal <obecny$cmp_gt0001> created at line 487.
+    Found 8-bit comparator greater for signal <obecny$cmp_gt0002> created at line 487.
+    Found 32-bit comparator less for signal <obecny$cmp_lt0000> created at line 466.
+    Found 7-bit register for signal <p1>.
+    Found 9-bit adder for signal <p10$addsub0000> created at line 59.
+    Found 9-bit adder for signal <p10$addsub0001> created at line 59.
+    Found 9-bit adder for signal <p10$addsub0002> created at line 59.
+    Found 9-bit adder for signal <p10$addsub0003> created at line 59.
+    Found 9-bit adder for signal <p10$addsub0004> created at line 59.
+    Found 9-bit adder for signal <p10$addsub0005> created at line 59.
+    Found 9-bit adder for signal <p10$addsub0006> created at line 59.
+    Found 9-bit subtractor for signal <p10$sub0000> created at line 56.
+    Found 9-bit subtractor for signal <p10$sub0001> created at line 56.
+    Found 9-bit subtractor for signal <p10$sub0002> created at line 56.
+    Found 9-bit subtractor for signal <p10$sub0003> created at line 56.
+    Found 9-bit subtractor for signal <p10$sub0004> created at line 56.
+    Found 9-bit subtractor for signal <p10$sub0005> created at line 56.
+    Found 9-bit subtractor for signal <p10$sub0006> created at line 56.
+    Found 9-bit subtractor for signal <p10$sub0007> created at line 56.
+    Found 9-bit adder for signal <p12$addsub0000> created at line 59.
+    Found 9-bit adder for signal <p12$addsub0001> created at line 59.
+    Found 9-bit adder for signal <p12$addsub0002> created at line 59.
+    Found 9-bit adder for signal <p12$addsub0003> created at line 59.
+    Found 9-bit adder for signal <p12$addsub0004> created at line 59.
+    Found 9-bit adder for signal <p12$addsub0005> created at line 59.
+    Found 9-bit adder for signal <p12$addsub0006> created at line 59.
+    Found 9-bit subtractor for signal <p12$sub0000> created at line 56.
+    Found 9-bit subtractor for signal <p12$sub0001> created at line 56.
+    Found 9-bit subtractor for signal <p12$sub0002> created at line 56.
+    Found 9-bit subtractor for signal <p12$sub0003> created at line 56.
+    Found 9-bit subtractor for signal <p12$sub0004> created at line 56.
+    Found 9-bit subtractor for signal <p12$sub0005> created at line 56.
+    Found 9-bit subtractor for signal <p12$sub0006> created at line 56.
+    Found 9-bit subtractor for signal <p12$sub0007> created at line 56.
+    Found 7-bit register for signal <p2>.
+    Found 8-bit subtractor for signal <p2$addsub0000> created at line 315.
+    Found 32-bit register for signal <pilkax>.
+    Found 32-bit adder for signal <pilkax$addsub0000> created at line 586.
+    Found 32-bit register for signal <pilkay>.
+    Found 32-bit adder for signal <pilkay$addsub0000> created at line 587.
+    Found 1-bit register for signal <poprzedni_synchro>.
+    Found 32-bit down counter for signal <praway>.
+    Found 32-bit comparator greatequal for signal <praway$cmp_ge0000> created at line 537.
+    Found 32-bit comparator lessequal for signal <praway$cmp_le0000> created at line 532.
+    Found 32-bit comparator less for signal <praway$cmp_lt0000> created at line 523.
+    Found 32-bit comparator less for signal <praway$cmp_lt0001> created at line 537.
+    Found 32-bit addsub for signal <praway$mux0000> created at line 537.
+    Found 32-bit adder for signal <predkosc$addsub0000> created at line 496.
+    Found 32-bit up counter for signal <predkosc0>.
+    Found 32-bit up counter for signal <predkosc1>.
+    Found 32-bit comparator less for signal <predkosc1$cmp_lt0000> created at line 568.
+    Found 32-bit register for signal <prpilkix>.
+    Found 32-bit adder for signal <prpilkix$add0000> created at line 571.
+    Found 32-bit adder for signal <prpilkix$add0001> created at line 571.
+    Found 32-bit comparator greatequal for signal <prpilkix$cmp_ge0000> created at line 573.
+    Found 32-bit comparator greatequal for signal <prpilkix$cmp_ge0001> created at line 573.
+    Found 32-bit comparator greatequal for signal <prpilkix$cmp_ge0002> created at line 571.
+    Found 32-bit comparator greatequal for signal <prpilkix$cmp_ge0003> created at line 571.
+    Found 32-bit comparator greatequal for signal <prpilkix$cmp_ge0004> created at line 571.
+    Found 32-bit comparator greatequal for signal <prpilkix$cmp_ge0005> created at line 571.
+    Found 32-bit comparator lessequal for signal <prpilkix$cmp_le0000> created at line 573.
+    Found 32-bit comparator lessequal for signal <prpilkix$cmp_le0001> created at line 573.
+    Found 32-bit comparator lessequal for signal <prpilkix$cmp_le0002> created at line 571.
+    Found 32-bit comparator lessequal for signal <prpilkix$cmp_le0003> created at line 571.
+    Found 32-bit comparator lessequal for signal <prpilkix$cmp_le0004> created at line 571.
+    Found 32-bit comparator lessequal for signal <prpilkix$cmp_le0005> created at line 571.
+    Found 32-bit adder for signal <prpilkix$sub0000> created at line 574.
+    Found 32-bit subtractor for signal <prpilkix$sub0001> created at line 571.
+    Found 32-bit subtractor for signal <prpilkix$sub0002> created at line 571.
+    Found 32-bit register for signal <prpilkiy>.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0000> created at line 582.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0001> created at line 582.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0002> created at line 571.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0003> created at line 571.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0004> created at line 571.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0005> created at line 571.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0006> created at line 576.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0007> created at line 577.
+    Found 32-bit comparator greater for signal <prpilkiy$cmp_gt0008> created at line 577.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0000> created at line 582.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0001> created at line 582.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0002> created at line 571.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0003> created at line 571.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0004> created at line 571.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0005> created at line 571.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0006> created at line 576.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0007> created at line 576.
+    Found 32-bit comparator less for signal <prpilkiy$cmp_lt0008> created at line 577.
+    Found 32-bit addsub for signal <prpilkiy$share0000> created at line 582.
+    Found 8-bit register for signal <punktylewy>.
+    Found 8-bit adder for signal <punktylewy$addsub0000> created at line 613.
+    Found 8-bit register for signal <punktyprawy>.
+    Found 8-bit adder for signal <punktyprawy$addsub0000> created at line 615.
+    Found 1-bit register for signal <synchronizacja>.
+    Found 32-bit adder for signal <VGA_B$add0000> created at line 394.
+    Found 32-bit adder for signal <VGA_B$add0001> created at line 394.
+    Found 32-bit adder for signal <VGA_B$add0002> created at line 394.
+    Found 32-bit adder for signal <VGA_B$add0003> created at line 394.
+    Found 32-bit comparator greatequal for signal <VGA_B$cmp_ge0000> created at line 416.
+    Found 32-bit comparator greater for signal <VGA_B$cmp_gt0000> created at line 383.
+    Found 32-bit comparator greater for signal <VGA_B$cmp_gt0001> created at line 384.
+    Found 32-bit comparator greater for signal <VGA_B$cmp_gt0002> created at line 384.
+    Found 32-bit comparator greater for signal <VGA_B$cmp_gt0003> created at line 391.
+    Found 32-bit comparator greater for signal <VGA_B$cmp_gt0004> created at line 394.
+    Found 32-bit comparator greater for signal <VGA_B$cmp_gt0005> created at line 394.
+    Found 32-bit comparator greater for signal <VGA_B$cmp_gt0006> created at line 394.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0000> created at line 374.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0001> created at line 383.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0002> created at line 383.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0003> created at line 384.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0004> created at line 384.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0005> created at line 391.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0006> created at line 394.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0007> created at line 394.
+    Found 32-bit comparator less for signal <VGA_B$cmp_lt0008> created at line 394.
+    Found 32-bit adder for signal <VGA_G$add0000> created at line 400.
+    Found 32-bit adder for signal <VGA_G$add0001> created at line 400.
+    Found 32-bit comparator greater for signal <VGA_G$cmp_gt0000> created at line 400.
+    Found 32-bit comparator greater for signal <VGA_G$cmp_gt0001> created at line 400.
+    Found 32-bit comparator greater for signal <VGA_G$cmp_gt0002> created at line 400.
+    Found 32-bit comparator less for signal <VGA_G$cmp_lt0000> created at line 400.
+    Found 32-bit comparator less for signal <VGA_G$cmp_lt0001> created at line 400.
+    Found 32-bit comparator less for signal <VGA_G$cmp_lt0002> created at line 400.
+    Found 32-bit subtractor for signal <VGA_G$sub0000> created at line 400.
+    Found 32-bit subtractor for signal <VGA_G$sub0001> created at line 400.
+    Found 32-bit comparator less for signal <VGA_HSYNC$cmp_lt0000> created at line 372.
+    Found 32-bit comparator less for signal <VGA_HSYNC$cmp_lt0001> created at line 416.
+    Found 32-bit comparator less for signal <VGA_HSYNC$or0000>.
+    Found 32-bit comparator less for signal <VGA_VSYNC$cmp_lt0000> created at line 357.
+    Found 32-bit comparator less for signal <VGA_VSYNC$cmp_lt0001> created at line 362.
+    Found 32-bit comparator less for signal <VGA_VSYNC$or0000>.
+    Found 32-bit comparator less for signal <wlaczony$cmp_lt0000> created at line 506.
+    Found 3-bit register for signal <zdobywca>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   7 ROM(s).
+	inferred   5 Counter(s).
+	inferred 231 D-type flip-flop(s).
+	inferred  60 Adder/Subtractor(s).
+	inferred   2 Multiplier(s).
+	inferred  86 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <PONG> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 7
+ 16x7-bit ROM                                          : 4
+ 32x16-bit ROM                                         : 1
+ 32x8-bit ROM                                          : 1
+ 64x48-bit ROM                                         : 1
+# Multipliers                                          : 2
+ 8x4-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 60
+ 32-bit adder                                          : 14
+ 32-bit addsub                                         : 3
+ 32-bit subtractor                                     : 9
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 2
+ 9-bit adder                                           : 14
+ 9-bit subtractor                                      : 16
+# Counters                                             : 5
+ 32-bit down counter                                   : 1
+ 32-bit up counter                                     : 4
+# Registers                                            : 21
+ 1-bit register                                        : 4
+ 3-bit register                                        : 1
+ 32-bit register                                       : 5
+ 4-bit register                                        : 5
+ 7-bit register                                        : 4
+ 8-bit register                                        : 2
+# Latches                                              : 3
+ 1-bit latch                                           : 1
+ 32-bit latch                                          : 2
+# Comparators                                          : 86
+ 32-bit comparator greatequal                          : 9
+ 32-bit comparator greater                             : 25
+ 32-bit comparator less                                : 40
+ 32-bit comparator lessequal                           : 8
+ 8-bit comparator greater                              : 4
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <obecny/FSM> on signal <obecny[1:6]> with one-hot encoding.
+-------------------------
+ State       | Encoding
+-------------------------
+ oczekiwanie | 000001
+ walka       | 000010
+ serwis      | 000100
+ gra         | 001000
+ punkty      | 010000
+ koniec      | 100000
+-------------------------
+WARNING:Xst:79 - Model 'DCM' has different characteristics in destination library
+WARNING:Xst:80 - Model name has been changed to 'DCM1'
+WARNING:Xst:1293 - FF/Latch <niebieski_1> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <niebieski_2> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <czerwony_1> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <czerwony_2> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <czerwony_3> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <zdobywca_1> of sequential type is unconnected in block <PONG>.
+WARNING:Xst:2677 - Node <zdobywca_1> of sequential type is unconnected in block <PONG>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 7
+ 16x7-bit ROM                                          : 4
+ 32x16-bit ROM                                         : 1
+ 32x8-bit ROM                                          : 1
+ 64x48-bit ROM                                         : 1
+# Multipliers                                          : 2
+ 8x4-bit multiplier                                    : 2
+# Adders/Subtractors                                   : 60
+ 32-bit adder                                          : 14
+ 32-bit addsub                                         : 3
+ 32-bit subtractor                                     : 9
+ 7-bit adder                                           : 2
+ 8-bit adder                                           : 2
+ 8-bit subtractor                                      : 6
+ 9-bit adder                                           : 12
+ 9-bit subtractor                                      : 12
+# Counters                                             : 5
+ 32-bit down counter                                   : 1
+ 32-bit up counter                                     : 4
+# Registers                                            : 230
+ Flip-Flops                                            : 230
+# Latches                                              : 3
+ 1-bit latch                                           : 1
+ 32-bit latch                                          : 2
+# Comparators                                          : 86
+ 32-bit comparator greatequal                          : 9
+ 32-bit comparator greater                             : 25
+ 32-bit comparator less                                : 40
+ 32-bit comparator lessequal                           : 8
+ 8-bit comparator greater                              : 4
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <niebieski_1> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <niebieski_2> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <czerwony_1> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <czerwony_2> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <czerwony_3> has a constant value of 0 in block <PONG>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <niebieski_0> in Unit <PONG> is equivalent to the following FF/Latch, which will be removed : <czerwony_0> 
+INFO:Xst:2261 - The FF/Latch <VGA_G_1> in Unit <PONG> is equivalent to the following FF/Latch, which will be removed : <VGA_G_3> 
+INFO:Xst:2261 - The FF/Latch <VGA_R_1> in Unit <PONG> is equivalent to the following 2 FFs/Latches, which will be removed : <VGA_R_2> <VGA_R_3> 
+
+Optimizing unit <PONG> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PONG, actual ratio is 26.
+FlipFlop punktylewy_3 has been replicated 1 time(s)
+FlipFlop punktylewy_4 has been replicated 1 time(s)
+FlipFlop punktylewy_5 has been replicated 1 time(s)
+FlipFlop punktylewy_6 has been replicated 1 time(s)
+FlipFlop punktylewy_7 has been replicated 1 time(s)
+FlipFlop punktyprawy_3 has been replicated 1 time(s)
+FlipFlop punktyprawy_5 has been replicated 1 time(s)
+FlipFlop punktyprawy_6 has been replicated 1 time(s)
+FlipFlop punktyprawy_7 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 396
+ Flip-Flops                                            : 396
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PONG.ngr
+Top Level Output File Name         : PONG
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 6021
+#      GND                         : 1
+#      INV                         : 442
+#      LUT1                        : 524
+#      LUT2                        : 805
+#      LUT2_D                      : 6
+#      LUT2_L                      : 5
+#      LUT3                        : 223
+#      LUT3_D                      : 11
+#      LUT3_L                      : 21
+#      LUT4                        : 819
+#      LUT4_D                      : 39
+#      LUT4_L                      : 63
+#      MUXCY                       : 2012
+#      MUXF5                       : 51
+#      MUXF6                       : 2
+#      VCC                         : 1
+#      XORCY                       : 996
+# FlipFlops/Latches                : 461
+#      FD                          : 79
+#      FDE                         : 106
+#      FDR                         : 33
+#      FDRE                        : 96
+#      FDRSE                       : 2
+#      FDS                         : 80
+#      LD                          : 1
+#      LDE                         : 64
+# Clock Buffers                    : 3
+#      BUFG                        : 3
+# IO Buffers                       : 20
+#      IBUF                        : 5
+#      IBUFG                       : 1
+#      OBUF                        : 14
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# MULTs                            : 2
+#      MULT18X18SIO                : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                     1525  out of   5888    25%  
+ Number of Slice Flip Flops:            461  out of  11776     3%  
+ Number of 4 input LUTs:               2958  out of  11776    25%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    372     5%  
+ Number of MULT18X18SIOs:                 2  out of     20    10%  
+ Number of GCLKs:                         3  out of     24    12%  
+ Number of DCMs:                          1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------+---------------------------+-------+
+Clock Signal                         | Clock buffer(FF name)     | Load  |
+-------------------------------------+---------------------------+-------+
+CLK_50MHZ                            | Inst_DCM/DCM_SP_INST:CLKDV| 396   |
+wlaczony_not0001(wlaczony_not00012:O)| NONE(*)(wlaczony)         | 1     |
+obecny_FSM_FFd11                     | BUFG                      | 64    |
+-------------------------------------+---------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.038ns (Maximum Frequency: 110.650MHz)
+   Minimum input arrival time before clock: 10.419ns
+   Maximum output required time after clock: 5.642ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_50MHZ'
+  Clock period: 9.038ns (frequency: 110.650MHz)
+  Total number of paths / destination ports: 1432594 / 809
+-------------------------------------------------------------------------
+Delay:               18.075ns (Levels of Logic = 14)
+  Source:            punktylewy_2 (FF)
+  Destination:       l2_4 (FF)
+  Source Clock:      CLK_50MHZ rising 0.5X
+  Destination Clock: CLK_50MHZ rising 0.5X
+
+  Data Path: punktylewy_2 to l2_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             18   0.591   1.100  punktylewy_2 (punktylewy_2)
+     LUT3:I2->O            1   0.648   0.423  Msub_p10_sub0006_Madd_xor<7>119 (Msub_p10_sub0006_Madd_xor<7>119)
+     LUT4:I3->O            1   0.648   0.452  Msub_p10_sub0006_Madd_xor<7>156 (Msub_p10_sub0006_Madd_xor<7>156)
+     LUT4:I2->O            2   0.648   0.450  Msub_p10_sub0006_Madd_xor<7>1147 (Msub_p10_sub0006_Madd_xor<7>1147)
+     LUT4:I3->O           13   0.648   1.015  Msub_p10_sub0006_Madd_xor<7>1215 (p10_sub0006<7>)
+     LUT4:I2->O            2   0.648   0.479  Msub_p10_sub0007_Madd_xor<7>196 (Msub_p10_sub0007_Madd_xor<7>196)
+     LUT4:I2->O            1   0.648   0.420  a1_0_mux00071 (a1_0_mux0007)
+     MULT18X18SIO:A0->P0    1   3.657   0.500  Mmult_cyfra0_mult0001 (cyfra0_mult0001<0>)
+     LUT2:I1->O            1   0.643   0.000  Msub_l2_addsub0000_lut<0> (Msub_l2_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  Msub_l2_addsub0000_cy<0> (Msub_l2_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Msub_l2_addsub0000_cy<1> (Msub_l2_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Msub_l2_addsub0000_cy<2> (Msub_l2_addsub0000_cy<2>)
+     XORCY:CI->O           7   0.844   0.740  Msub_l2_addsub0000_xor<3> (l2_addsub0000<3>)
+     LUT3:I2->O            1   0.648   0.563  l2_mux0000<2>12 (l2_mux0000<2>12)
+     LUT4:I0->O            1   0.648   0.000  l2_mux0000<2>321 (l2_mux0000<2>32)
+     FDS:D                     0.252          l2_4
+    ----------------------------------------
+    Total                     18.075ns (11.933ns logic, 6.142ns route)
+                                       (66.0% logic, 34.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'obecny_FSM_FFd11'
+  Clock period: 7.490ns (frequency: 133.509MHz)
+  Total number of paths / destination ports: 3488 / 64
+-------------------------------------------------------------------------
+Delay:               7.490ns (Levels of Logic = 17)
+  Source:            predkosc_10 (LATCH)
+  Destination:       predkosc_22 (LATCH)
+  Source Clock:      obecny_FSM_FFd11 falling
+  Destination Clock: obecny_FSM_FFd11 falling
+
+  Data Path: predkosc_10 to predkosc_22
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              2   0.728   0.590  predkosc_10 (predkosc_10)
+     LUT1:I0->O            1   0.648   0.000  Mcompar_dodatek_cmp_lt0000_cy<0>_rt (Mcompar_dodatek_cmp_lt0000_cy<0>_rt)
+     MUXCY:S->O            1   0.632   0.000  Mcompar_dodatek_cmp_lt0000_cy<0> (Mcompar_dodatek_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<1> (Mcompar_dodatek_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<2> (Mcompar_dodatek_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<3> (Mcompar_dodatek_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<4> (Mcompar_dodatek_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<5> (Mcompar_dodatek_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<6> (Mcompar_dodatek_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<7> (Mcompar_dodatek_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<8> (Mcompar_dodatek_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<9> (Mcompar_dodatek_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<10> (Mcompar_dodatek_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<11> (Mcompar_dodatek_cmp_lt0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Mcompar_dodatek_cmp_lt0000_cy<12> (Mcompar_dodatek_cmp_lt0000_cy<12>)
+     MUXCY:CI->O          57   0.269   1.270  Mcompar_dodatek_cmp_lt0000_cy<13> (Mcompar_dodatek_cmp_lt0000_cy<13>)
+     INV:I->O             10   0.648   1.025  Mcompar_dodatek_cmp_lt0000_cy<13>_inv_INV_0 (dodatek_cmp_lt0000)
+     LUT2:I0->O            1   0.648   0.000  predkosc_mux0001<9>1 (predkosc_mux0001<9>)
+     LDE:D                     0.252          predkosc_22
+    ----------------------------------------
+    Total                      7.490ns (4.605ns logic, 2.885ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK_50MHZ'
+  Total number of paths / destination ports: 2754 / 163
+-------------------------------------------------------------------------
+Offset:              10.419ns (Levels of Logic = 37)
+  Source:            ZA (PAD)
+  Destination:       prpilkiy_31 (FF)
+  Destination Clock: CLK_50MHZ rising 0.5X
+
+  Data Path: ZA to prpilkiy_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            36   0.849   1.406  ZA_IBUF (ZA_IBUF)
+     LUT4_L:I0->LO         1   0.648   0.103  prpilkiy_and0006_SW0 (N811)
+     LUT4:I3->O           35   0.648   1.343  prpilkiy_and0006 (prpilkiy_and0006)
+     LUT3:I1->O            1   0.643   0.000  Maddsub_prpilkiy_share0000_lut<0> (Maddsub_prpilkiy_share0000_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  Maddsub_prpilkiy_share0000_cy<0> (Maddsub_prpilkiy_share0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<1> (Maddsub_prpilkiy_share0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<2> (Maddsub_prpilkiy_share0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<3> (Maddsub_prpilkiy_share0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<4> (Maddsub_prpilkiy_share0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<5> (Maddsub_prpilkiy_share0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<6> (Maddsub_prpilkiy_share0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<7> (Maddsub_prpilkiy_share0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<8> (Maddsub_prpilkiy_share0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<9> (Maddsub_prpilkiy_share0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<10> (Maddsub_prpilkiy_share0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<11> (Maddsub_prpilkiy_share0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<12> (Maddsub_prpilkiy_share0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<13> (Maddsub_prpilkiy_share0000_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<14> (Maddsub_prpilkiy_share0000_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<15> (Maddsub_prpilkiy_share0000_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<16> (Maddsub_prpilkiy_share0000_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<17> (Maddsub_prpilkiy_share0000_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<18> (Maddsub_prpilkiy_share0000_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<19> (Maddsub_prpilkiy_share0000_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<20> (Maddsub_prpilkiy_share0000_cy<20>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<21> (Maddsub_prpilkiy_share0000_cy<21>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<22> (Maddsub_prpilkiy_share0000_cy<22>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<23> (Maddsub_prpilkiy_share0000_cy<23>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<24> (Maddsub_prpilkiy_share0000_cy<24>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<25> (Maddsub_prpilkiy_share0000_cy<25>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<26> (Maddsub_prpilkiy_share0000_cy<26>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<27> (Maddsub_prpilkiy_share0000_cy<27>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<28> (Maddsub_prpilkiy_share0000_cy<28>)
+     MUXCY:CI->O           1   0.065   0.000  Maddsub_prpilkiy_share0000_cy<29> (Maddsub_prpilkiy_share0000_cy<29>)
+     MUXCY:CI->O           0   0.065   0.000  Maddsub_prpilkiy_share0000_cy<30> (Maddsub_prpilkiy_share0000_cy<30>)
+     XORCY:CI->O           1   0.844   0.452  Maddsub_prpilkiy_share0000_xor<31> (prpilkiy_share0000<31>)
+     LUT4:I2->O            1   0.648   0.000  prpilkiy_mux0000<0>1 (prpilkiy_mux0000<0>)
+     FD:D                      0.252          prpilkiy_31
+    ----------------------------------------
+    Total                     10.419ns (7.114ns logic, 3.305ns route)
+                                       (68.3% logic, 31.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_50MHZ'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              5.642ns (Levels of Logic = 1)
+  Source:            VGA_R_1 (FF)
+  Destination:       VGA_R<3> (PAD)
+  Source Clock:      CLK_50MHZ rising 0.5X
+
+  Data Path: VGA_R_1 to VGA_R<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.591   0.531  VGA_R_1 (VGA_R_1)
+     OBUF:I->O                 4.520          VGA_R_3_OBUF (VGA_R<3>)
+    ----------------------------------------
+    Total                      5.642ns (5.111ns logic, 0.531ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 62.00 secs
+Total CPU time to Xst completion: 62.29 secs
+ 
+--> 
+
+Total memory usage is 377816 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   31 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

@@ -1,0 +1,3 @@
+vhdl work "DCM.vhd"
+vhdl work "PONG.vhd"
+vhdl work "Test.vhd"

@@ -1,0 +1,547 @@
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
+xst -intstyle ise -ifn "E:/Pliki/PONG/PONG.xst" -ofn "E:/Pliki/PONG/PONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmienne.ucf -p xc3s700a-fg484-4 PONG.ngc PONG.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o PONG_map.ncd PONG.ngd PONG.pcf 
+par -w -intstyle ise -ol high -t 1 PONG_map.ncd PONG.ncd PONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PONG.twx PONG.ncd -o PONG.twr PONG.pcf -ucf zmienne.ucf 
+bitgen -intstyle ise -f PONG.ut PONG.ncd 
